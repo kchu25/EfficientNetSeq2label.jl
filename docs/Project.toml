@@ -1,0 +1,6 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+EfficientNetSeq2label = "356fff74-3787-4fec-bfc9-b8569907faee"
+
+[sources]
+EfficientNetSeq2label = {path = ".."}

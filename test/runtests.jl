@@ -161,7 +161,7 @@ using Random
         @test model_tanh.final_nonlinearity === tanh
         
         # Test create_model uses ranges.final_nonlinearity
-        Random.seed!(12345)  # Use fixed seed to ensure valid architecture
+        Random.seed!(42)  # Use fixed seed to ensure valid architecture
         model_auto_tanh = EfficientNetSeq2label.create_model(
             (4, 41), 10, 32;
             ranges=ranges_tanh,

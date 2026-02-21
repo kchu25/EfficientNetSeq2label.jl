@@ -1,7 +1,7 @@
 name = "EfficientNetSeq2label"
 uuid = "356fff74-3787-4fec-bfc9-b8569907faee"
-authors = ["Shane Kuei-Hsien Chu (skchu@wustl.edu)"]
 version = "0.0.1"
+authors = ["Shane Kuei-Hsien Chu (skchu@wustl.edu)"]
 
 [deps]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
@@ -16,6 +16,7 @@ cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
 CUDA = "5"
 ChainRulesCore = "1"
 Flux = "0.16"
+Statistics = "1"
 Zygote = "0.7"
 cuDNN = "1"
 julia = "1.11"
